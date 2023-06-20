@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C2F7E53-D725-C611-2029-FCC4DF48F63A" containerWithKeyObject="E9578A90-BDAD-4106-6625-BC07EA98828A" localFKIndex="1554B270-3653-BB7F-D9C2-0FF9BDA459B6" name="T_EMAIL_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>8252A383-57A1-B432-5819-B8517EFA3BF9</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_EMAIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F5A12B0-BECE-929C-F6A5-A0D68407CC84</referredTableID>
+<keyObject>D0FB558B-7A30-23E1-3B05-1C9B78653319</keyObject>
+<referredKeyID>D0FB558B-7A30-23E1-3B05-1C9B78653319</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

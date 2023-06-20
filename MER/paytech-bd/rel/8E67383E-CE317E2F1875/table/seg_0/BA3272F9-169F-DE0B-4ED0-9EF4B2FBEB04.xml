@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA3272F9-169F-DE0B-4ED0-9EF4B2FBEB04" name="T_TRANSACAO">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>907A7EE4-E3ED-F24C-F0A2-5F9A8853C55A</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_transacao" id="4DB3CC5E-56CB-43D1-34D6-A23345768610">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>F3DBAA2E-FCD7-4A6F-F833-F7A3772C2DE5</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_transacao" id="75D48271-14CB-E9AA-9E59-87A9D8BE1E5D">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>00A642A4-5073-83CB-ACE7-9F0A2342D75A</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_transacao" id="62BBCA76-B320-EE81-9088-D062B511EAB3">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>2BC8C738-8514-E446-A098-A477A28F25DD</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transacao" id="CA2A641C-0771-C608-2BD6-35F82091FD8F">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>262B2968-AFDB-7B0F-EBEA-ED990BB29D58</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08FD2AFE-88CB-12E2-2824-1CCB237C14B6" name="T_TRANSACAO_PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>74E6225D-F1C0-CCA2-D5DB-077443ED80FB</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DB3CC5E-56CB-43D1-34D6-A23345768610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5861E630-5EC6-278A-B15A-0B510FDA0059" name="T_TELEFONE">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:18 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="12634014-4326-90A6-F6CE-00BDF2F6D82B">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:25 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="67B095A6-ED75-2025-423B-BC1CF3767E8A">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:39 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="3E222696-96A9-AF1E-3EBB-D1C6F405FFE8">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:51 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCF51820-1AA9-6A4E-0715-265F6848DDFF" name="T_TELEFONE PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:51 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12634014-4326-90A6-F6CE-00BDF2F6D82B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

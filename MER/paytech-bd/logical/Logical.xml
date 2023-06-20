@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E64448B6-CFCB-5609-4F18-BE3D0AAB7BFA" mainViewID="A1AC8DFA-01F6-A34F-1F37-1C2A428C9D66">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:26:03 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

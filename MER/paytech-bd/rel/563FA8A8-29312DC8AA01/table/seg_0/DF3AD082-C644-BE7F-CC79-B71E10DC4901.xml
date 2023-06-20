@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3AD082-C644-BE7F-CC79-B71E10DC4901" name="T_CIDADE">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>FC6DD04A-92F2-FCFB-CD64-B84D54167C22</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="D9AF56A1-AA85-0BDB-F4A9-1C3BD828239A">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>8A83EA55-A322-909A-B261-9CB7E19812E5</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CE98B10-7115-7844-3F3A-4A5B4C418B33" referredColumn="4B8BDCC0-AD75-5E42-8FDE-29DF0636A65B"/>
+</associations>
+</Column>
+<Column name="cd_cidade" id="427C1ED4-210B-E5FD-DCFF-79C23ABB0477">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>137FFDDE-9501-7BB8-4A3C-A88224A61D53</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="6C53E84F-4D0A-EDD4-59A6-B3FA95CAF908">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>4096DEB7-29EE-1BB2-A3A0-624758EF0ECE</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF967FEF-A97F-8654-CDCC-E91E69C6D023" name="T_CIDADE_PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>DA059577-9650-084A-4C16-74750950713D</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="427C1ED4-210B-E5FD-DCFF-79C23ABB0477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A5E743-C827-C48A-5A49-C55390CE3A34" name="T_ESTADO_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>F2FACD4B-5487-7A8A-DBF8-1C603BB7D3CA</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9AF56A1-AA85-0BDB-F4A9-1C3BD828239A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

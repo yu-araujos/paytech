@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62DDD588-66FB-A298-869A-39D1ACFE5193" containerWithKeyObject="E9578A90-BDAD-4106-6625-BC07EA98828A" localFKIndex="94259280-CA94-6631-46AA-2506A11B6673" name="T_ENDERECO_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>E4972D53-B028-B952-E148-AB5F09E6E1B4</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7F845C6-89AF-F27B-8C19-95F027A91746</referredTableID>
+<keyObject>1E6BE7C2-337B-E244-1F88-9C6F225440FB</keyObject>
+<referredKeyID>1E6BE7C2-337B-E244-1F88-9C6F225440FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_endereco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

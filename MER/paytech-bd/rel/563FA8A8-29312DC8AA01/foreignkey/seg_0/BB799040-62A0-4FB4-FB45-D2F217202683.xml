@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB799040-62A0-4FB4-FB45-D2F217202683" containerWithKeyObject="E9578A90-BDAD-4106-6625-BC07EA98828A" localFKIndex="0B4A54B6-007F-2386-E381-0666B16F0CAA" name="T_CADASTRO_FKv2">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>25130338-F33E-CAEC-D131-892F8BA4EB81</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_CADASTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25AFEAAD-A253-6616-7BF8-9F865590A553</referredTableID>
+<keyObject>18455F4C-1EE8-82ED-CCAB-B62D9035CB67</keyObject>
+<referredKeyID>18455F4C-1EE8-82ED-CCAB-B62D9035CB67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cadastro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E60F8A08-8CC0-E93D-1267-C57CDD97F657" containerWithKeyObject="496B6E50-8887-D2E4-B1CD-5B86E3E4F9CF" localFKIndex="3713A11E-082B-995A-3BA9-3D2806331631" name="T_USUARIO_T_LOGIN_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>A085DF35-0B91-6461-EE65-59F8F3B9F3DB</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_LOGIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9507E9C7-DEC9-D19E-B168-4DADFCD7B4A3</referredTableID>
+<keyObject>1134377B-AE26-2A8B-7448-F7FB4289210D</keyObject>
+<referredKeyID>1134377B-AE26-2A8B-7448-F7FB4289210D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

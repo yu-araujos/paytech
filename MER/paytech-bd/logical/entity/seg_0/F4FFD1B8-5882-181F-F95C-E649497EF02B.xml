@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4FFD1B8-5882-181F-F95C-E649497EF02B" name="T_TRANSCACAO_CTGZD">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:40:19 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_transacao_ctgzd" id="6E2B0ED0-9B42-8444-34B1-72A6FFA98C3F">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:40:28 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria" id="14A6813F-C1ED-3B0E-120F-6C3A846B5BED">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:48:16 UTC</createdTime>
+<generatorID>4D5B0629-6A08-E688-3636-E94EE5B83EF8</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<referedAttribute>F78088D2-BB22-7355-C242-A910F384DAFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D3DBA83-EAA0-8C09-A145-B9DF1E35E43B" name="T_TRANSC_AUTORIZADA PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:40:48 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E2B0ED0-9B42-8444-34B1-72A6FFA98C3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

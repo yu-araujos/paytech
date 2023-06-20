@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C42ADB36-4552-88D5-1A3E-E638980677DA" name="T_CONTA">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:31:14 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_conta" id="0BCCF44E-0B60-98C1-9060-A96329FCB2F7">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:31:19 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_conta" id="12FE23FF-A94B-0DD0-720B-7A6150CB2459">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:32:50 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo_conta" id="0E1C06EC-46C5-DA40-8BEC-0AD200A7A9A6">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:31:27 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="981000A5-DD26-CFD3-81B1-9179B4E66425">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:45:56 UTC</createdTime>
+<generatorID>7677DF8A-F5F2-D3D1-573D-94FD1AD9422B</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<referedAttribute>CB09739D-37DD-7FD5-E94D-F407A5B5CC2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_transacao_ctgzd" id="A8E2D728-7389-61A7-F821-E4AD54AF231F">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:48:31 UTC</createdTime>
+<generatorID>2D7F2DCD-8DEE-2D8B-86B1-D8FD362E1F2C</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<referedAttribute>6E2B0ED0-9B42-8444-34B1-72A6FFA98C3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_analise" id="82B305ED-6DA0-976D-829E-B87EAF52F73E">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:48:40 UTC</createdTime>
+<generatorID>46CF6DFB-6375-8DB0-52E5-747DF99986BF</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<referedAttribute>E9B83B66-26CF-034F-587D-A959AA30E2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_maquina" id="7DE28DAE-6FEE-2010-2BBD-3D2DE6E0EB1F">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:50:52 UTC</createdTime>
+<generatorID>81B3A3DE-6D90-8003-FB20-476EF3FEA392</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<referedAttribute>39062EA4-D151-C00D-78A0-6346D9A0F588</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13E4DAA4-C38B-9858-9EAF-5981D24A294F" name="T_CONTA PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:31:23 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BCCF44E-0B60-98C1-9060-A96329FCB2F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

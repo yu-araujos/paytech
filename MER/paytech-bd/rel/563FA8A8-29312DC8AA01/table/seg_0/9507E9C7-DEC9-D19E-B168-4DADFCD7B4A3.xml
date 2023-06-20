@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9507E9C7-DEC9-D19E-B168-4DADFCD7B4A3" name="T_LOGIN">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>410BF07A-D264-DF0C-A5EE-C0F8E16A6F1E</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cadastro" id="2A68B104-BD4E-2C4D-53B7-7F40BBE277CB">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>5045861D-806F-D420-7DF1-43F149EE5884</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FAE9609-1250-056E-AFCB-6C41B6E9E588" referredColumn="A6375CE9-5F53-86AC-815F-89CB15228C27"/>
+</associations>
+</Column>
+<Column name="cd_login" id="40BCDA02-AA2A-B11A-4EBE-E056A678F122">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>8C4C0C21-1328-B7D1-1F9D-71D66C9F777F</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="D01A1544-3BE1-2167-1C90-D25F682DB1BD">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>BE7390F8-1628-70F2-044E-7846D9AD95EB</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="371A97E9-01AE-DDBA-FA7D-995420C87677" referredColumn="373A3CBD-1C12-F258-31E5-56DA1937E1F2"/>
+</associations>
+</Column>
+<Column name="login_usuario" id="AB018B99-0555-CD84-5B48-48FEB3821038">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>AD132024-E6E7-2F0C-B866-28A6B62FC7EA</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha_usuario" id="2BF67C00-8176-AA77-36C4-1E4D728586E1">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>AFB783DF-3925-0285-C920-2FA10D7B5424</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1134377B-AE26-2A8B-7448-F7FB4289210D" name="T_LOGIN_PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>DA2671AA-B355-C541-F3F3-D54BBBD8F8C8</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BCDA02-AA2A-B11A-4EBE-E056A678F122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3469752B-C738-161E-3B1C-A10DB765D2F8" name="T_LOGIN__IDX">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A085DF35-0B91-6461-EE65-59F8F3B9F3DB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D01A1544-3BE1-2167-1C90-D25F682DB1BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="638EB277-B8ED-31C7-693E-6D36E37060A2" name="T_LOGIN__IDXv1">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A0F726BC-6094-4947-593B-CF65D4E975E7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2A68B104-BD4E-2C4D-53B7-7F40BBE277CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7A6ABC4-940E-5082-38CD-1F3A08FB7B70" name="T_USUARIO_FKv2">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>A085DF35-0B91-6461-EE65-59F8F3B9F3DB</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D01A1544-3BE1-2167-1C90-D25F682DB1BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE3A97E6-405C-FF95-2267-80BF87A7E83F" name="T_CADASTRO_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>A0F726BC-6094-4947-593B-CF65D4E975E7</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A68B104-BD4E-2C4D-53B7-7F40BBE277CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

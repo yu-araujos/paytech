@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pode terv3" directorySegmentName="seg_0" id="4D5B0629-6A08-E688-3636-E94EE5B83EF8">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:48:16 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="8E67383E-8DBE-5AD0-0416-CE317E2F1875" value="true"/>
+</engineerTo>
+<sourcePk>CA6DEF88-964A-273B-CE0C-5A59AF5167B2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E30EE11-BC0A-B301-127D-9CD87349C4B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4FFD1B8-5882-181F-F95C-E649497EF02B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

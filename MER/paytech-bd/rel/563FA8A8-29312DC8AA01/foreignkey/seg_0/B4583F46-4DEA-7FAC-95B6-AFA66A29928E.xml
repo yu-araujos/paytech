@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4583F46-4DEA-7FAC-95B6-AFA66A29928E" containerWithKeyObject="5BFE0468-1B91-9DC8-7BEF-66588F62FD49" localFKIndex="A12B1D86-0616-12F5-BC9B-7FBD9CAC4BCB" name="T_CIDADE_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>7A17BCD2-0F6E-A3FC-B138-34F1563CF18C</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF3AD082-C644-BE7F-CC79-B71E10DC4901</referredTableID>
+<keyObject>BF967FEF-A97F-8654-CDCC-E91E69C6D023</keyObject>
+<referredKeyID>BF967FEF-A97F-8654-CDCC-E91E69C6D023</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28898F08-2E25-78EF-22B0-D0FC9D1E47F9" containerWithKeyObject="B5EE4AA8-FAA2-0F16-65E7-29147521A866" localFKIndex="64ACC879-790F-ED86-D3CB-C4F57E5618FB" name="T_PAIS_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>866720B5-79D2-1D7D-A5E9-829A7646B98F</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D0E6248-F8E7-E442-A36E-EF54C5212ADC</referredTableID>
+<keyObject>70C80AFC-F705-DFA6-C3A3-CBD7452E1240</keyObject>
+<referredKeyID>70C80AFC-F705-DFA6-C3A3-CBD7452E1240</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF5C7899-2146-5D4F-1DD0-48938346EF3A" containerWithKeyObject="E7F845C6-89AF-F27B-8C19-95F027A91746" localFKIndex="F3FD10A6-E956-78CE-CE9A-0DC79144395D" name="T_LOGRADOURO_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:11:06 UTC</createdTime>
+<generatorID>C0E674D8-774D-8898-032F-C45E47247A85</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BFE0468-1B91-9DC8-7BEF-66588F62FD49</referredTableID>
+<keyObject>1D63E3F4-92B6-B89F-D84C-60479FC78F22</keyObject>
+<referredKeyID>1D63E3F4-92B6-B89F-D84C-60479FC78F22</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_logradouro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

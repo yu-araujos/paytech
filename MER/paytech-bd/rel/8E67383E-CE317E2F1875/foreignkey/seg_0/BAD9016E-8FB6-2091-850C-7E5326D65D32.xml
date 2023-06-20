@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAD9016E-8FB6-2091-850C-7E5326D65D32" containerWithKeyObject="62BA7326-B8F0-084C-2BDA-15F6E1621467" localFKIndex="82E79D8D-3A88-D275-9E21-A0BDD0D5BC12" name="T_CTG_TRANSACAO_T_TRANSACAO_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>783D168C-7E3A-EA48-DC95-74279BEF7FD9</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_TRANSACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA3272F9-169F-DE0B-4ED0-9EF4B2FBEB04</referredTableID>
+<keyObject>08FD2AFE-88CB-12E2-2824-1CCB237C14B6</keyObject>
+<referredKeyID>08FD2AFE-88CB-12E2-2824-1CCB237C14B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_transacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E6E0B0A-0449-73F3-09FA-E853EDFACED3" name="T_ENDERECO">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:02:26 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="A8DE85FC-046E-7200-BA8A-BC69C628590E">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:02:36 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_logradouro" id="A2E63EE9-8A3F-1007-1DCB-E578FDA95DB5">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:06:15 UTC</createdTime>
+<generatorID>C0E674D8-774D-8898-032F-C45E47247A85</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<referedAttribute>9BB2CB16-D78A-4A78-8422-8BE1E9D29236</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7DC442C-8CE0-348B-879F-AFCAB953BE28" name="T_ENDERECO PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 22:02:54 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8DE85FC-046E-7200-BA8A-BC69C628590E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

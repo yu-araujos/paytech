@@ -1,0 +1,104 @@
+* {
+  font-family: 'Comfortaa';
+}
+
+
+ /* Header */
+.bg-paytech {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #A351F4;
+
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.login-btn{
+  background-color: #A351F4;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.login-btn:hover{
+  background-color: #d8bff4;
+  transition: .5s ease;
+}
+
+.login-btn a {
+  color: white;
+}
+
+.login-btn a:hover {
+  color: white;
+}
+
+.sign-up {
+  color: #A351F4;
+  text-decoration: underline;
+}
+
+/* Área de login */
+.login-area {
+  background-color: #A351F4;
+  height: 92.33vh;
+}
+
+.login-title {
+  padding-top: 10%;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.btn-entrar {
+  margin: 25px auto 15px;
+}
+
+.btn-primary {
+  background-color: #8a30e4;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d8bff4;
+  border: none;
+}
+
+.form-login {
+  margin-top: 50px;
+}
+
+.divider {
+  color: white;
+  user-select:none
+}
+
+i {
+  color: #d8bff4;
+  font-size: 2rem;
+}
+
+i:hover {
+  color: white;
+  transition: .5s ease;
+}
+
+.cadastro {
+  color: white;
+}
+
+.cadastro span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF155ADF-35C5-EE27-6A7A-3062B5A37797" containerWithKeyObject="04D68632-9C57-747E-51A1-CB8B845E43E8" localFKIndex="8D5D6D24-2849-8518-6A9C-F78D67B57953" name="T_CONTA_T_ANALISE_MENSAL_FK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-26 22:51:10 UTC</createdTime>
+<generatorID>46CF6DFB-6375-8DB0-52E5-747DF99986BF</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<referredTableLongName>T_ANALISE_MENSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C80D59C-657D-89FF-168B-1986203114B5</referredTableID>
+<keyObject>3D48BB4A-81A8-DAB8-D2E6-C355B622A1C8</keyObject>
+<referredKeyID>3D48BB4A-81A8-DAB8-D2E6-C355B622A1C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_analise</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

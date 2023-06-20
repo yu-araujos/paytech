@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="410BF07A-D264-DF0C-A5EE-C0F8E16A6F1E" name="T_LOGIN">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:53:37 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_login" id="8C4C0C21-1328-B7D1-1F9D-71D66C9F777F">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:53:45 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login_usuario" id="AD132024-E6E7-2F0C-B866-28A6B62FC7EA">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:53:49 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha_usuario" id="AFB783DF-3925-0285-C920-2FA10D7B5424">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:54:18 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="BE7390F8-1628-70F2-044E-7846D9AD95EB">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:55:58 UTC</createdTime>
+<generatorID>A085DF35-0B91-6461-EE65-59F8F3B9F3DB</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<referedAttribute>CB09739D-37DD-7FD5-E94D-F407A5B5CC2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cadastro" id="5045861D-806F-D420-7DF1-43F149EE5884">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:56:07 UTC</createdTime>
+<generatorID>A0F726BC-6094-4947-593B-CF65D4E975E7</generatorID>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<referedAttribute>553CD5CB-CC20-34C8-D8F8-89995EC0A484</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA2671AA-B355-C541-F3F3-D54BBBD8F8C8" name="T_LOGIN PK">
+<createdBy>Oxyur</createdBy>
+<createdTime>2023-05-29 21:54:02 UTC</createdTime>
+<ownerDesignName>paytech-bd</ownerDesignName>
+<engineerTo>
+<item key="563FA8A8-D6F8-E871-C0F7-29312DC8AA01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C4C0C21-1328-B7D1-1F9D-71D66C9F777F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
