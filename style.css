@@ -44,6 +44,10 @@
 }
 
 /* Área de login */
+label {
+  color: white;
+}
+
 .login-area {
   background-color: #A351F4;
   height: 92.33vh;
